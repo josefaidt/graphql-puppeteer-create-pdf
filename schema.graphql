@@ -1,0 +1,11 @@
+input NewFileInput {
+  name: String!
+}
+
+type Query {
+  hello: String!
+}
+
+type Mutation {
+  createFile(data: NewFileInput): String!
+}
